@@ -1,0 +1,788 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+  background: transparent;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  font-size: 17px;
+  font-weight: bold;
+  z-index: 10;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  padding: 3px 3px;
+  margin: 10px 20px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: context-menu;
+}
+.navbar li a:hover {
+  text-decoration: underline;
+  color: oldlace;
+}
+.search {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.search input {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  height: 25px;
+  width: 18rem;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: math;
+  font-style: italic;
+  font-variant: petite-caps;
+  letter-spacing: 1px;
+  padding-left: 30px;
+}
+.search button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: 1px;
+  height: 25px;
+  width: 60px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: math;
+  font-style: italic;
+  font-variant: petite-caps;
+  cursor: progress;
+}
+.first_TopImage img {
+  position: absolute;
+  width: 100%;
+  /* height: 40rem; */
+}
+.textAreaTop {
+  position: absolute;
+}
+.first_TopImage .car_service pre {
+  position: absolute;
+  color: black;
+  margin-top: 7rem;
+  margin-left: 110px;
+  font-size: 25px;
+}
+.first_TopImage pre {
+  position: absolute;
+  color: black;
+  margin-top: 150px;
+  margin-left: 5rem;
+  font-size: 40px;
+  font-family: serif;
+}
+
+.car_png img {
+  height: 350px;
+  margin-top: 45rem;
+  margin-left: -10px;
+}
+.blackBar {
+  background-color: black;
+  height: 2px;
+  width: 340px;
+  margin-top: -20rem;
+  margin-left: 50rem;
+}
+.jaguartxt h1 {
+  margin-top: 1rem;
+  color: black;
+  font-size: 18px;
+  margin-left: 50rem;
+}
+
+.grid-container {
+  margin-left: 48rem;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 140px 140px 140px;
+  padding: 5px;
+}
+.grid-item {
+  color: black;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+.txtabout {
+  color: black;
+  width: 450px;
+  margin-left: 48rem;
+  margin-top: auto;
+}
+.btn2 button {
+  color: whitesmoke;
+  margin: 25px -43rem 0px 48rem;
+  background-color: #dd4522f2;
+  height: 26px;
+  width: 6rem;
+  border-radius: 20px 1px;
+}
+.customerHeading {
+  color: black;
+  margin-top: 8rem;
+  margin-left: 85px;
+  font-size: 20px;
+}
+.customertxt {
+  color: black;
+  width: 21rem;
+  margin-left: 60px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.customerLogo1 {
+  color: black;
+  font-size: 40px;
+  margin-left: 38rem;
+  margin-top: -6rem;
+}
+.customerLogo1 h6 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: -25px;
+}
+.customerLogo2 {
+  color: black;
+  font-size: 40px;
+  margin-left: 50rem;
+  margin-top: -5rem;
+}
+.customerLogo2 h6 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: -18px;
+}
+.customerLogo3 {
+  color: black;
+  font-size: 40px;
+  margin-left: 63rem;
+  margin-top: -5rem;
+}
+.customerLogo3 h6 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: -25px;
+}
+.companyTxt {
+  color: black;
+  margin-top: 10rem;
+  margin-left: 46%;
+  font-size: 20px;
+}
+.companyIMGS img {
+  height: 7rem;
+  margin-top: 2rem;
+  margin-left: 6rem;
+}
+.featuresTxt h3 {
+  font-size: 30px;
+  color: gray;
+  margin-top: 9rem;
+  margin-left: 5rem;
+}
+.featureIMgs img {
+  height: 10rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.heading_our_cars h3 {
+  color: gray;
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  font-size: 25px;
+}
+.FIRST_car_rent_box {
+  background-color: white;
+  height: 20rem;
+  width: 259px;
+}
+.FIRST_car_rent_box img {
+  height: 9rem;
+}
+.first_car_details h1 {
+  color: black;
+  font-size: 22px;
+  margin-left: 5px;
+}
+.first_car_details h2 {
+  color: black;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.first_car_details_img1 img {
+  height: 20px;
+  margin-top: 20px;
+}
+.first_car_details_img1 span {
+  position: absolute;
+  margin-top: 22px;
+  font-size: 13px;
+}
+.first_car_details_img2 img {
+  height: 20px;
+  margin-top: -22px;
+  margin-left: 7rem;
+  position: absolute;
+}
+.first_car_details_img2 span {
+  position: absolute;
+  font-size: 13px;
+  margin-left: 8.3rem;
+  margin-top: -21px;
+}
+.border1 {
+  width: 300px;
+  margin-top: 12rem;
+  margin-left: 8rem;
+  display: flex;
+  padding: 20px;
+  overflow: visible;
+  box-shadow: 12px 2px 8px 2px rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+  font-family: AvenirNextLTPro, Tahoma, sans-serif;
+  border-radius: 12px;
+  background-image: linear-gradient(to top, #ffffff 61.98%, #e8e8e8 100%);
+}
+.first_car_details_img3 img {
+  height: 20px;
+  margin-top: 10px;
+}
+.first_car_details_img3 span {
+  position: absolute;
+  font-size: 13px;
+  margin-top: 14px;
+}
+.first_car_details_img4 img {
+  height: 20px;
+  position: absolute;
+  margin-left: 7rem;
+  margin-top: -21px;
+}
+.first_car_details_img4 span {
+  margin-top: -18px;
+  margin-left: 135px;
+  position: absolute;
+  font-size: 13px;
+}
+.FIRST_car_rent_box button {
+  margin-top: 2rem;
+  border-radius: 7px 0px 7px 0px;
+  padding: 1px;
+  height: 20px;
+  box-shadow: 2px 2px 6px 0px;
+  color: white;
+  font-weight: bold;
+  background-color: #3b99d1;
+}
+
+/* .............. */
+.second_car_rent_box {
+  background-color: white;
+  height: 20rem;
+  width: 259px;
+}
+.second_car_rent_box img {
+  height: 9rem;
+}
+.second_car_details h1 {
+  color: black;
+  font-size: 22px;
+  margin-left: 5px;
+}
+.second_car_details h2 {
+  color: black;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.second_car_details_img1 img {
+  height: 20px;
+  margin-top: 20px;
+}
+.second_car_details_img1 span {
+  position: absolute;
+  margin-top: 22px;
+  font-size: 13px;
+}
+.second_car_details_img2 img {
+  height: 20px;
+  margin-top: -22px;
+  margin-left: 7rem;
+  position: absolute;
+}
+.second_car_details_img2 span {
+  position: absolute;
+  font-size: 13px;
+  margin-left: 8.3rem;
+  margin-top: -21px;
+}
+.border2 {
+  width: 300px;
+  margin-top: -22.4rem;
+  margin-left: 33.5rem;
+  display: flex;
+  padding: 20px;
+  overflow: visible;
+  box-shadow: 12px 2px 8px 2px rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+  font-family: AvenirNextLTPro, Tahoma, sans-serif;
+  border-radius: 12px;
+  background-image: linear-gradient(to top, #ffffff 61.98%, #e8e8e8 100%);
+}
+.second_car_details_img3 img {
+  height: 20px;
+  margin-top: 10px;
+}
+.second_car_details_img3 span {
+  position: absolute;
+  font-size: 13px;
+  margin-top: 14px;
+}
+.second_car_details_img4 img {
+  height: 20px;
+  position: absolute;
+  margin-left: 7rem;
+  margin-top: -21px;
+}
+.second_car_details_img4 span {
+  margin-top: -18px;
+  margin-left: 135px;
+  position: absolute;
+  font-size: 13px;
+}
+.second_car_rent_box button {
+  margin-top: 2rem;
+  border-radius: 7px 0px 7px 0px;
+  padding: 1px;
+  height: 20px;
+  box-shadow: 2px 2px 6px 0px;
+  color: white;
+  font-weight: bold;
+  background-color: #3b99d1;
+}
+/* ........................
+ */
+.third_car_rent_box {
+  background-color: white;
+  height: 20rem;
+  width: 259px;
+}
+.third_car_rent_box img {
+  height: 9rem;
+}
+.third_car_details h1 {
+  color: black;
+  font-size: 22px;
+  margin-left: 5px;
+}
+.third_car_details h2 {
+  color: black;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.third_car_details_img1 img {
+  height: 20px;
+  margin-top: 20px;
+}
+.third_car_details_img1 span {
+  position: absolute;
+  margin-top: 22px;
+  font-size: 13px;
+}
+.third_car_details_img2 img {
+  height: 20px;
+  margin-top: -22px;
+  margin-left: 7rem;
+  position: absolute;
+}
+.third_car_details_img2 span {
+  position: absolute;
+  font-size: 13px;
+  margin-left: 8.3rem;
+  margin-top: -21px;
+}
+.border3 {
+  width: 300px;
+  margin-top: -22.4rem;
+  margin-left: 60rem;
+  display: flex;
+  padding: 20px;
+  overflow: visible;
+  box-shadow: 12px 2px 8px 2px rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+  font-family: AvenirNextLTPro, Tahoma, sans-serif;
+  border-radius: 12px;
+  background-image: linear-gradient(to top, #ffffff 61.98%, #e8e8e8 100%);
+}
+.third_car_details_img3 img {
+  height: 20px;
+  margin-top: 10px;
+}
+.third_car_details_img3 span {
+  position: absolute;
+  font-size: 13px;
+  margin-top: 14px;
+}
+.third_car_details_img4 img {
+  height: 20px;
+  position: absolute;
+  margin-left: 7rem;
+  margin-top: -21px;
+}
+.third_car_details_img4 span {
+  margin-top: -18px;
+  margin-left: 135px;
+  position: absolute;
+  font-size: 13px;
+}
+.third_car_rent_box button {
+  margin-top: 2rem;
+  border-radius: 7px 0px 7px 0px;
+  padding: 1px;
+  height: 20px;
+  box-shadow: 2px 2px 6px 0px;
+  color: white;
+  font-weight: bold;
+  background-color: #3b99d1;
+}
+/* ............... 4*/
+.forth_car_rent_box {
+  background-color: white;
+  height: 20rem;
+  width: 259px;
+}
+.forth_car_rent_box img {
+  height: 9rem;
+}
+.forth_car_details h1 {
+  color: black;
+  font-size: 22px;
+  margin-left: 5px;
+}
+.forth_car_details h2 {
+  color: black;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.forth_car_details_img1 img {
+  height: 20px;
+  margin-top: 20px;
+}
+.forth_car_details_img1 span {
+  position: absolute;
+  margin-top: 22px;
+  font-size: 13px;
+}
+.forth_car_details_img2 img {
+  height: 20px;
+  margin-top: -22px;
+  margin-left: 7rem;
+  position: absolute;
+}
+.forth_car_details_img2 span {
+  position: absolute;
+  font-size: 13px;
+  margin-left: 8.3rem;
+  margin-top: -21px;
+}
+.border4 {
+  width: 300px;
+  margin-top: 5rem;
+  margin-left: 8rem;
+  display: flex;
+  padding: 20px;
+  overflow: visible;
+  box-shadow: 12px 2px 8px 2px rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+  font-family: AvenirNextLTPro, Tahoma, sans-serif;
+  border-radius: 12px;
+  background-image: linear-gradient(to top, #ffffff 61.98%, #e8e8e8 100%);
+}
+.forth_car_details_img3 img {
+  height: 20px;
+  margin-top: 10px;
+}
+.forth_car_details_img3 span {
+  position: absolute;
+  font-size: 13px;
+  margin-top: 14px;
+}
+.forth_car_details_img4 img {
+  height: 20px;
+  position: absolute;
+  margin-left: 7rem;
+  margin-top: -21px;
+}
+.forth_car_details_img4 span {
+  margin-top: -18px;
+  margin-left: 135px;
+  position: absolute;
+  font-size: 13px;
+}
+.forth_car_rent_box button {
+  margin-top: 2rem;
+  border-radius: 7px 0px 7px 0px;
+  padding: 1px;
+  height: 20px;
+  box-shadow: 2px 2px 6px 0px;
+  color: white;
+  font-weight: bold;
+  background-color: #3b99d1;
+}
+
+/* ..........................5 */
+.fifth_car_rent_box {
+  background-color: white;
+  height: 20rem;
+  width: 259px;
+}
+.fifth_car_rent_box img {
+  height: 9rem;
+}
+.fifth_car_details h1 {
+  color: black;
+  font-size: 22px;
+  margin-left: 5px;
+}
+.fifth_car_details h2 {
+  color: black;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.fifth_car_details_img1 img {
+  height: 20px;
+  margin-top: 20px;
+}
+.fifth_car_details_img1 span {
+  position: absolute;
+  margin-top: 22px;
+  font-size: 13px;
+}
+.fifth_car_details_img2 img {
+  height: 20px;
+  margin-top: -22px;
+  margin-left: 7rem;
+  position: absolute;
+}
+.fifth_car_details_img2 span {
+  position: absolute;
+  font-size: 13px;
+  margin-left: 8.3rem;
+  margin-top: -21px;
+}
+.border5 {
+  width: 300px;
+  margin-top: -22.2rem;
+  margin-left: 33.5rem;
+  display: flex;
+  padding: 20px;
+  overflow: visible;
+  box-shadow: 12px 2px 8px 2px rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+  font-family: AvenirNextLTPro, Tahoma, sans-serif;
+  border-radius: 12px;
+  background-image: linear-gradient(to top, #ffffff 61.98%, #e8e8e8 100%);
+}
+.fifth_car_details_img3 img {
+  height: 20px;
+  margin-top: 10px;
+}
+.fifth_car_details_img3 span {
+  position: absolute;
+  font-size: 13px;
+  margin-top: 14px;
+}
+.fifth_car_details_img4 img {
+  height: 20px;
+  position: absolute;
+  margin-left: 7rem;
+  margin-top: -21px;
+}
+.fifth_car_details_img4 span {
+  margin-top: -18px;
+  margin-left: 135px;
+  position: absolute;
+  font-size: 13px;
+}
+.fifth_car_rent_box button {
+  margin-top: 2rem;
+  border-radius: 7px 0px 7px 0px;
+  padding: 1px;
+  height: 20px;
+  box-shadow: 2px 2px 6px 0px;
+  color: white;
+  font-weight: bold;
+  background-color: #3b99d1;
+}
+/* .......................... 6*/
+.sixth_car_rent_box {
+  background-color: white;
+  height: 20rem;
+  width: 259px;
+}
+.sixth_car_rent_box img {
+  height: 9rem;
+}
+.sixth_car_details h1 {
+  color: black;
+  font-size: 22px;
+  margin-left: 5px;
+}
+.sixth_car_details h2 {
+  color: black;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.sixth_car_details_img1 img {
+  height: 20px;
+  margin-top: 20px;
+}
+.sixth_car_details_img1 span {
+  position: absolute;
+  margin-top: 22px;
+  font-size: 13px;
+}
+.sixth_car_details_img2 img {
+  height: 20px;
+  margin-top: -22px;
+  margin-left: 7rem;
+  position: absolute;
+}
+.sixth_car_details_img2 span {
+  position: absolute;
+  font-size: 13px;
+  margin-left: 8.3rem;
+  margin-top: -21px;
+}
+.border6 {
+  width: 300px;
+  margin-top: -22.4rem;
+  margin-left: 60rem;
+  display: flex;
+  padding: 20px;
+  overflow: visible;
+  box-shadow: 12px 2px 8px 2px rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+  font-family: AvenirNextLTPro, Tahoma, sans-serif;
+  border-radius: 12px;
+  background-image: linear-gradient(to top, #ffffff 61.98%, #e8e8e8 100%);
+}
+.sixth_car_details_img3 img {
+  height: 20px;
+  margin-top: 10px;
+}
+.sixth_car_details_img3 span {
+  position: absolute;
+  font-size: 13px;
+  margin-top: 14px;
+}
+.sixth_car_details_img4 img {
+  height: 20px;
+  position: absolute;
+  margin-left: 7rem;
+  margin-top: -21px;
+}
+.sixth_car_details_img4 span {
+  margin-top: -18px;
+  margin-left: 135px;
+  position: absolute;
+  font-size: 13px;
+}
+.sixth_car_rent_box button {
+  margin-top: 2rem;
+  border-radius: 7px 0px 7px 0px;
+  padding: 1px;
+  height: 20px;
+  box-shadow: 2px 2px 6px 0px;
+  color: white;
+  font-weight: bold;
+  background-color: #3b99d1;
+}
+
+.buttom_blue_box {
+  background-color: #007ac3;
+  width: 100%;
+  height: 25rem;
+}
+.lastpng img {
+  margin-top: -190px;
+  width: 100%;
+}
+.companies img{
+  margin-top: 1%;
+    margin-left: 0.5%;
+    height: 22px;
+}
+.companies span{
+  margin-top: 16px;
+    position: absolute;
+    margin-left: 10px;
+    /* color: wheat; */
+    color: antiquewhite;
+}
+.phone img{
+  margin-top: 3%;
+  margin-left: 0.5%;
+  height: 22px;
+}
+.phone span{
+  margin-top: 3%;
+    position: absolute;
+    margin-left: 10px;
+    /* color: wheat; */
+    color: antiquewhite;
+}
+.mail img{
+  margin-top: 4%;
+  margin-left: 0.5%;
+  height: 22px;
+}
+.mail span{
+  margin-top: 4%;
+  position: absolute;
+  margin-left: 10px;
+  /* color: wheat; */
+  color: antiquewhite;
+}
+.time img{
+  margin-top: 5%;
+  margin-left: 0.5%;
+  height: 22px; 
+}
+.time span{
+  margin-top: 5%;
+  position: absolute;
+  margin-left: 10px;
+  /* color: wheat; */
+  color: antiquewhite;
+
+}
+.luxury_buttom_png img{
+  position: absolute;
+  height: 11rem;
+  margin-top: -25%;
+  margin-left: 55%;
+}

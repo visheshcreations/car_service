@@ -1,0 +1,2 @@
+// console.log("hello world")
+// confirm("This site is not a real site it is just only a clone of the real differents sites. This site is develop only for learmimg for testing purpose.             Thanku for visiting our site")
